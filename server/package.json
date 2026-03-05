@@ -1,0 +1,26 @@
+{
+  "name": "mern-social-auth-server",
+  "version": "1.0.0",
+  "description": "MERN Social Auth Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-linkedin-oauth2": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
